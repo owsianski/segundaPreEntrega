@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/*  font-family: "Permanent Marker", cursive; */
+
+
+.navbar{
+    background-color: #2B2D42;
+    text-transform: uppercase;
+    color: #FDFFFC;
+}
+
+.navbar-brand img{
+    height: 50px;
+}
+
+.jumbotron{
+    background-image: linear-gradient(rgba(0,0,0, 0.3),rgba(0,0,0, 0.3)) , url(./multimedia/banner.jpg);
+    height: 800px;
+}
+
+.jumbotron h1{
+    font-size: 90px;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    color: #FDFFFC;
+}
+
+.jumbotron p {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: #2B2D42;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: #FDFFFC;
+    letter-spacing: 10px;
+}
