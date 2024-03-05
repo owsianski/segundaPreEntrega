@@ -11,6 +11,7 @@
 </head>
 <body>
         <!-- comienza bootstrap 5.1 -->
+      <header>
         <nav class="navbar navbar-expand-sm navbar-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="./multimedia/logo.png" alt=""> InsertCoin</a>
@@ -26,7 +27,7 @@
                     <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/ambiente.html">Ambiente</a>
+                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="../pages/menu.html">Menú</a>
@@ -38,48 +39,78 @@
               </div>
             </div>
           </nav>
+        </header>
           <!-- termina bootstrap 5.1 -->
-          <!--carousel comienza -->
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+        <!-- comienza servicios -->
+        <section class="nosotros">
+          <h2 class="text-center my-5">Nuestros Servicios</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <div class="card">
+                  <img src="../multimedia/1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Delivery</h5>
+                    <p class="card-text">Aquí podés pedir para no perderte nuestras hambuguesas</p>
+                    <a href="https://www.pedidosya.com/" class="btn btn-secondary">Delivery</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card">
+                  <img src="../multimedia/2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Menú</h5>
+                    <p class="card-text">Aquí podes consultar nuestro menú y cervezas artesanales</p>
+                    <a href="../multimedia/2.jpg" class="btn btn-secondary">Menú</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card">
+                  <img src="../multimedia/3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Hacete fan</h5>
+                    <p class="card-text"> Hacete fan de nosotros y obtene beneficios para descuentos en nuestros locales</p>
+                    <a href="https://www.instagram.com/" class="btn btn-secondary">Seguínos</a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" style="max-width: 600px;">
-                <img src="../multimedia/ambiente.webp" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Así son nuestro espacios de juegos</h5>
-                  
-                </div>
-              </div>
-              <div class="carousel-item" style="max-width: 600px;">
-                <img src="../multimedia/ambiente 5.jfif" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Así son nuestro espacios de juegos</h5>
-                  
-                </div>
-              </div>
-              <div class="carousel-item" style="max-width: 600px;">
-                <img src="../multimedia/ambiente 3.webp" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Así son nuestro espacios de juegos</h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-          <!--carousel fin  -->
+        </section>
+        <!-- finaliza servicios -->
+        <!-- comieza ambiente -->
+        <section class="tarjeta my-5">
+          <h2 class="text-center">Así es nuestro espacio</h2>
+          <div class="conteiner-fluid my-5">
+            <div class="row">
+              <div class="col-sm-4 w-30">
+                <img class="img-fluid img-thumbnail" src="../multimedia/ambiente.webp" alt="">
+              </div>
+              <div class="col-sm-4 w-30">
+                <img class="img-fluid img-thumbnail" src="../multimedia/ambiente 2.webp" alt="">
+              </div>
+              <div class="col-sm-4 w-30">
+                <img class="img-fluid img-thumbnail" src="../multimedia/ambiente 3.webp" alt="">
+              </div>
+              <div class="col-sm-4 w-30">
+                <img class="img-fluid img-thumbnail" src="../multimedia/ambiente 4.webp" alt="">
+              </div>
+              <div class="col-sm-4 w-30">
+                <img class="img-fluid img-thumbnail" src="../multimedia/ambiente 5.jfif" alt="">
+              </div>
+              <div class="col-sm-4 w-30">
+                <img class="img-fluid img-thumbnail" src="../multimedia/ambiente 6.webp" alt="">
+              </div>
+            </div>
+          </div>
+          
 
-
+        </section>
+        <!-- finaliza ambiente -->
 
           <!-- footer inicia -->
           <footer>

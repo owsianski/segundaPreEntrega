@@ -11,6 +11,7 @@
 </head>
 <body>
         <!-- comienza bootstrap 5.1 -->
+        <header>
         <nav class="navbar navbar-expand-sm navbar-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="./multimedia/logo.png" alt=""> InsertCoin</a>
@@ -26,7 +27,7 @@
                     <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/ambiente.html">Ambiente</a>
+                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="../pages/menu.html">Menú</a>
@@ -38,13 +39,49 @@
               </div>
             </div>
           </nav>
+        </header>
           <!-- termina bootstrap 5.1 -->
-          <!--jumbotron inicia -->
-          <div class= "jumbotron p-5 text-white opacity-75">
-            <h1>Bienvenidos a InsertCoin</h1>
-            <p>Un lugar diseñado para venir a disfrutar de juegos arcades y las mejores hamburguesas</p>
+          <!--formulario inicia  -->
+          <section class="contactenos py-5">
+            <h2 class="text-center">Contáctanos</h2>
+          <div class="container">
+            <form class="row">
+              <div class="mb-3 col-4">
+                <label for="Nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="Nombre">
+                <div id="nombre" class="form-text">Indiqué su nombre</div>
+              </div>
+              <div class="mb-3 col-4">
+                <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1">
+                <div id="email" class="form-text" placeholder>Indiqué su E-mail</div>
+              </div>
+              <div class="mb-3 col-4">
+                <label for="asunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="asunto" aria-describedby="asunto">
+                <div id="asunto" class="form-text"></div>
+              </div>
+              <div class="mb-3 col-12">
+                <label for="Comentario">Comentario</label>
+                <textarea class="form-control" name="Comentario" id="" cols="30" rows="5"></textarea>
+              </div>
+              <div class="text-center"><button type="submit" class="btn btn-light">Enviar</button></div>
+            </form>
           </div>
-          <!--jumbotron finaliza -->
+          </section>
+          <!--formulario finaliza  -->
+          <!-- ubicacion --> 
+          <section class="ubicacion">   
+           <h2 class="my-5 text-center">Ubicación</h2>
+          <div class="conteiner">
+            <div class="row">
+              <div class="col-lg-12 col-md-6 col-sm-4 d-flex justify-content-center">      
+            <iframe class="my-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.8287323304926!2d-60.70392332438379!3d-31.638539374160068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9e859fbb73f%3A0xf68df0f0d32e15cd!2sInsert%20Coin%20Nights!5e0!3m2!1ses-419!2sar!4v1709674959893!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+          </section>    
+          <!-- ubicacion -->
 
           <!-- footer inicia -->
           <footer>

@@ -11,6 +11,7 @@
 </head>
 <body>
         <!-- comienza bootstrap 5.1 -->
+        <header>
         <nav class="navbar navbar-expand-sm navbar-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="./multimedia/logo.png" alt=""> InsertCoin</a>
@@ -26,7 +27,7 @@
                     <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/ambiente.html">Ambiente</a>
+                    <a class="nav-link" href="./pages/servicios.html">Servicios</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./pages/menu.html">Menú</a>
@@ -38,34 +39,60 @@
               </div>
             </div>
           </nav>
+        </header>
           <!-- termina bootstrap 5.1 -->
 
-            <!-- banner comienza -->
+            <!-- carousel comienza -->
             <section class="banner">
-              <div class="container-fluid">
-                <div class="row align-items-center justify-content-between text-dark">
-                  <div class="col text-center">
-                    <h1>Bienvenidos a InsertCoin</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae nisi eligendi nesciunt fugit. Ex accusantium at, maxime aliquam, ipsa, placeat voluptatibus iure harum expedita molestiae fugit officia doloremque. Natus, veritatis?</p>
-                    <a href="./pages/contacto.html" class="btn btn-secondary">¡Haz tu Resérva!</a>
-                  </div>
-                  <div class="col">
-                    <img class="banner" src="./multimedia/insert-coin-neon-sign_77399-837.avif" alt="">
-                  </div>
-
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active opacity-50" style="max-height: 850px;">
+                    <img src="./multimedia/banner.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Bienvenidos a InsertCoin</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt in unde voluptatum dicta consequuntur! Quod, hic cupiditate! Necessitatibus, laudantium non! ipsum dolor sit amet consectetur adipisicing elit. Eius aspernatur itaque recusandae deserunt deleniti iusto?</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item opacity-50" style="max-height: 850px;">
+                    <img src="./multimedia/banner 2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Bienvenidos a InsertCoin</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt in unde voluptatum dicta consequuntur! Quod, hic cupiditate! Necessitatibus, laudantium non! ipsum dolor sit amet consectetur adipisicing elit. Eius aspernatur itaque recusandae deserunt deleniti iusto?</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item opacity-50" style="max-height: 850px;">
+                    <img src="./multimedia/banner3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Bienvenidos a InsertCoin</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt in unde voluptatum dicta consequuntur! Quod, hic cupiditate! Necessitatibus, laudantium non! ipsum dolor sit amet consectetur adipisicing elit. Eius aspernatur itaque recusandae deserunt deleniti iusto?</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
 
             </section>
-            <!-- banner fin -->
-      
+            <!-- carousel fin -->
 
+          
           <!-- footer inicia -->
           <footer>
            <p>Todos los derechos son reservados por copyright</p>
            <div class="redes">
-            <a href="https://www.instagram.com/">
-              <i class="fa-brands fa-instagram fa-beat"></i>
+            <a href="https://www.whatsapp.com/">
+              <i class="fa-brands fa-whatsapp fa-beat"></i>
             </a>
             <a href="https://www.facebook.com/?locale=es_LA">
               <i class="fa-brands fa-facebook fa-beat"></i>
